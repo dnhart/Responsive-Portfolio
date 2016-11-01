@@ -436,14 +436,14 @@ form {
 	}
 
 	.project {
-		width: 310px;
+		width: 49%;
 		height: 235px;
 		box-sizing: border-box;
 		padding: 0;
 		display: block;
 		overflow: auto;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
 		position: relative;
 		margin-bottom: 25px;
 		clear: right;
@@ -533,9 +533,9 @@ form {
 	.project {
 		float: left;
 		margin: auto;
-		width: 535px;
-		height: 400px;
-		background-size: 100% 100%;
+		width: 100%;
+    	background-size: cover;
+    	background-position: center;
 		clear: both;
 		margin-bottom: 25px;
 	}
